@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width: 380px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto";
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto";
+  text-transform: uppercase;
+  outline: 0;
+  background: #1E83A8;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form .message {
+  font-family: "Roboto";
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;}
+body {
+  background-color: #f0f0f0;
+}
+
+.after_login{
+  margin-top: 200px;
+  font-family: "Roboto";
+  font-size: 50px;
+  color: #1E83A8;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+#content{
+  width: 1200px;
+  height: 730px;
+  margin: auto;
+  margin-top: 10px;
+  }
+
+.pojokanan{
+  margin-top: 2px;
+  width: 250px;
+  height: 30px;
+  background-color: #1E83A8;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 15px;
+  box-shadow: 7px 7px 6px rgba(0,0,0,0.3);
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pojokanan:hover{
+  font-size: 20px;
+}
+
+.pojokanan a{
+  color: white;
+  text-decoration: none;
+}
+
+#kirijeh{
+  width: 250px;
+  height:700px;
+  background-color: white;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.27);
+  padding: 10px;
+  font-family: "Roboto";
+  font-size: 12px;
+  float: left;
+  color: #6d6f6f;
+}
+
+
+#kananjeh{
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.27);
+  width: 900px;
+  height: 700px;
+  background-color: white;
+  padding: 10px;
+  float: right;
+  font-family: "calibri";
+  color: #6d6f6f;
+  font-size: 17px;
+}
+
+
+
+.btn {
+  width: 300px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  border-radius: 0.6em;
+  color: #e74c3c;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+}
+
+.first {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.first:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+#footer{
+  color: #1E83A8;
+  text-align: right;
+  width: 1200px;
+  height: 20px;
+  margin: auto;
+  font-family: "Roboto";
+  font-size: 12px;
+}
